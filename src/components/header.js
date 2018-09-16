@@ -1,10 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <div
     style={{
-      background: 'rebeccapurple',
+      background: '#1e1e99',
       marginBottom: '1.45rem',
     }}
   >
@@ -23,7 +23,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: 'none',
           }}
         >
-          {siteTitle}
+          <p style={{color: "#fcfcf4"}}>ROSIE CASTRO</p>
         </Link>
       </h1>
     </div>
